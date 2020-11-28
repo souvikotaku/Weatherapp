@@ -51,3 +51,26 @@ body {
     color: white;
 }
 
+#image{
+    filter: saturate(50%);
+   
+    filter: contrast(100%);
+    filter: brightness(100%);
+    filter:drop-shadow(0px 0px 10px #b1fd01);
+}
+
+@media (orientation:portrait){
+    .searchbox{
+        height: 470px;
+        width: 350px;
+    }
+
+    .inputVal{
+       width: 200px; 
+       height: 25px;
+    }
+    .clicksub{
+        width: 100px;
+        height: 28px;
+    }
+}
